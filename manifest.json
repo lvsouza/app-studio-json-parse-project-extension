@@ -3,19 +3,12 @@
   "authorName": "Lucas Souza Dev",
   "packageName": "pb-json-parse-project-extension",
   "description": "This extension allows you to transform your project to a JSON-formatted version. The json string will contain a structured representation of your project, including all key details, configurations, and settings, making it easy to store, share, or process in other tools. Ideal for backups, versioning, or exporting data to integrate with other systems.",
+  "platformActions": [],
   "parsers": [
     {
-      "key": "json-parser",
+      "key": "project-to-json",
       "label": "Parse to JSON",
       "description": "Generate a string with the all structure of the project"
-    }
-  ],
-  "platformActions": [
-    {
-      "key": "download-as-json",
-      "label": "Download as JSON",
-      "description": "Download the project as a JSON file",
-      "icon": "VscCloudDownload"
     }
   ]
 }
