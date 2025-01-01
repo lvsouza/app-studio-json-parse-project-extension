@@ -117,8 +117,9 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.21.5.tgz#acad351d582d157bb145535db2a6ff53dd514b5c"
   integrity sha512-tQd/1efJuzPC6rCFwEvLtci/xNFcTZknmXs98FYDfGE4wP9ClFV98nyKrzJKVPMhdDnjzLhdUyMX4PsQAPjwIw==
 
-"@pb/extension-basics@file:../extension-basics":
+"@pb/extension-basics@github:lvsouza/app-studio-extension-base#main":
   version "1.0.0"
+  resolved "https://codeload.github.com/lvsouza/app-studio-extension-base/tar.gz/68e968d006cf23e8e9dae508adf8b25648e7f886"
   dependencies:
     comlink "^4.4.2"
 

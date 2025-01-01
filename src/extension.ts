@@ -5,7 +5,7 @@ new class ProjectExport extends ExtensionBase {
   parsers: TParser[] = [
     {
       key: 'project-to-json',
-      parser(project) {
+      async parser(project) {
         return JSON.stringify(project);
       },
     }
