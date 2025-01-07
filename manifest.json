@@ -1,7 +1,7 @@
 {
   "name": "Parse Project as JSON",
   "authorName": "Lucas Souza Dev",
-  "packageName": "pb-json-parse-project-extension",
+  "packageName": "app-studio-extension-json-parse-project",
   "description": "This extension allows you to transform your project to a JSON-formatted version. The json string will contain a structured representation of your project, including all key details, configurations, and settings, making it easy to store, share, or process in other tools. Ideal for backups, versioning, or exporting data to integrate with other systems.",
   "platformActions": [],
   "parsers": [
