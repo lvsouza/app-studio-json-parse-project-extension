@@ -1,12 +1,16 @@
-import { ExtensionBase, TParser, } from '@pb/extension-basics';
+import { ExtensionBase, TParser, TView, } from '@pb/extension-basics';
 
 
 new class ProjectExport extends ExtensionBase {
+  views: TView[] = [];
   parsers: TParser[] = [
     {
       key: 'project-to-json',
-      async parser(project) {
-        return JSON.stringify(project);
+      parser: async () => {
+        this.application.commands.editor.feedback(`Download initialized...`, 'success');
+        return JSON.stringify(
+          this.application.dataProviders.project()
+        );
       },
     }
   ];
