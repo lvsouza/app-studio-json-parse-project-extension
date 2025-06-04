@@ -1,8 +1,7 @@
-import { ExtensionBase, TParser, TView, } from '@pb/extension-basics';
+import { ExtensionBase, TParser } from '@pb/extension-basics';
 
 
 new class ProjectExport extends ExtensionBase {
-  views: TView[] = [];
   parsers: TParser[] = [
     {
       key: 'project-to-json',
@@ -16,11 +15,11 @@ new class ProjectExport extends ExtensionBase {
   ];
 
 
-  activate() {
+  async activate() {
     console.log('EXTENSION: Activating');
   }
 
-  deactivate() {
+  async deactivate() {
     console.log('EXTENSION: Deactivating');
   }
 };

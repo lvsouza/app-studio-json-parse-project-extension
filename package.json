@@ -1,6 +1,6 @@
 {
   "name": "app-studio-extension-json-parse-project",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "module": "dist/index.js",
   "manifest": "manifest.json",
   "private": false,
