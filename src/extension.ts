@@ -1,4 +1,4 @@
-import { ExtensionBase, Parser } from '@pb/extension-basics';
+import { ExtensionBase, Parser } from '@parsifly/extension-basics';
 
 
 new class ProjectExport extends ExtensionBase {
