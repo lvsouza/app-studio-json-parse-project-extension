@@ -117,9 +117,9 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.21.5.tgz#acad351d582d157bb145535db2a6ff53dd514b5c"
   integrity sha512-tQd/1efJuzPC6rCFwEvLtci/xNFcTZknmXs98FYDfGE4wP9ClFV98nyKrzJKVPMhdDnjzLhdUyMX4PsQAPjwIw==
 
-"@pb/extension-basics@github:lvsouza/app-studio-extension-base#main":
+"@pb/extension-basics@github:lvsouza/parsifly-extension-base#main":
   version "1.0.0"
-  resolved "https://codeload.github.com/lvsouza/app-studio-extension-base/tar.gz/7ba0c7fa4aea5fbb8bd594b0b32f908f37a51042"
+  resolved "https://codeload.github.com/lvsouza/parsifly-extension-base/tar.gz/6009d23da20653521cb651378284bcc82a7ed2db"
   dependencies:
     comlink "^4.4.2"
 
